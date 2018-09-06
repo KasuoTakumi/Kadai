@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>お問い合わせページ</title>
+</head>
+<body>
+    <h1>お問い合わせページ</h1>
+    <form action="./confirm.php" method="post">
+        <input type="text" name="name" id="name" placeholder="おなまえ" value="{{name}}">
+        <input type="email" name="mail" id="mail"placeholder="メールアドレス" value="{{mail}}">
+        <textarea name="naiyou" id="textarea" cols="30" rows="10" placeholder="お問い合わせ内容">{{naiyou}}</textarea>
+        <input type="submit" value="確認画面">
+    </form>
+</body>
+</html>
